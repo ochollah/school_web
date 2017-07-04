@@ -1,0 +1,277 @@
+# school_web
+sample of school web page
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ongeng' Sec school'</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content=" web" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- menu -->
+<link href="component.css" rel="stylesheet" type="text/css"  />
+<link rel="stylesheet" href="font-awesome.min.css" />
+<!-- //menu -->
+<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="flexslider.css" type="text/css" media="screen" property="" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!-- fonts -->
+<link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!-- //fonts -->
+</head>
+<body class="cbp-spmenu-push">
+	 <!--top-header-->
+		<!--bottom-->
+		 
+<!-- banner -->
+<div class="w3layouts-banner">
+	<div class="container">
+		<div class="wthree-header">
+			<div class="w3l-logo">
+				<h1><a href="index.html">Ongeng' Sec school</a></h1>
+			</div> 
+			<div class="agileinfo-tleft">
+				<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+								<h3>Menu</h3>
+								<a href="index.html" class="active">Home</a>
+								<a href="about.html">About us</a>
+								<a href="gallery.html">Gallery</a>
+								<a href="contact.html">Contact</a>
+							</nav>
+							<div class="main buttonset">
+									<!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+									<button id="showRightPush"><img src="menu.png" alt=""/></button>
+									<!--<span class="menu"></span>-->
+							</div>
+				
+							<script>
+								var menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+								showRightPush = document.getElementById( 'showRightPush' ),
+								body = document.body;
+
+								showRightPush.onclick = function() {
+									classie.toggle( this, 'active' );
+									classie.toggle( body, 'cbp-spmenu-push-toleft' );
+									classie.toggle( menuRight, 'cbp-spmenu-open' );
+									disableOther( 'showRightPush' );
+								};
+
+								function disableOther( button ) {
+									if( button !== 'showRightPush' ) {
+										classie.toggle( showRightPush, 'disabled' );
+									}
+								}
+							</script>
+							<!-- /script-for-menu -->
+			</div>
+			<div class="clearfix"></div>			
+		</div>
+		<div class="w3l_banner_info">
+				<section class="slider">
+					<div class="flexslider">
+						<ul class="slides">
+							<li>
+								<div class="wthree_banner_info_grid">
+									<h3>KCSE perfomance 2015.</h3>
+									<p>23 As,17A-,12B+,24B.13B- Mean Grade 9.4556B.</p>
+								</div>
+							</li>
+							<li>
+								<div class="wthree_banner_info_grid">
+									<h3>County KCSE Ranking 2015</h3>
+									<p>Our school was ranked position 2 out of 37 schol in the county.</p>
+								</div>
+							</li>
+							<li>
+								<div class="wthree_banner_info_grid">
+									<h3>Extra-curricullum activities.</h3>
+									<p>In sport our school was No1 in the county in football boys, Science congress participation we were No2 nationally.</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+						<!-- flexSlider -->
+							<script defer src="jquery.flexslider.js"></script>
+							<script type="text/javascript">
+							$(window).load(function(){
+							  $('.flexslider').flexslider({
+								animation: "slide",
+								start: function(slider){
+								  $('body').removeClass('loading');
+								}
+							  });
+							});
+						  </script>
+						<!-- //flexSlider -->
+						
+			</div>	
+				<div class="w3l-social">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								<div class="clearfix"></div>
+							</ul>
+						</div>		
+
+	</div>
+</div>
+<!-- //banner -->
+<!-- who -->
+<div class="agileinfo-who">
+	<div class="container">
+		<div class="col-md-6 agileinfo-who-left">
+			<h2>WHO ARE WE</h2>
+		</div>
+		<div class="col-md-6 agileinfo-who-right">
+			<p> Our school motto is " Forward Ever Backward Never":", the capacity that we normally admit especially in Form1 is 200 students annually.</p>
+			<p>Our school admission policy is to admit a student with minimum 300 marks scored in KCPE, Our rules and regulations policies are friendly and easy to adhere to,The environment is conducive for learning..</p>
+			<div class="agileinfo-news-button">
+				<a href="#" class="hvr-shutter-in-horizontal" data-toggle="modal" data-target="#myModal"> Read More</a>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //who -->
+<!-- services -->
+<div class="w3-agileits-services">
+		<div class="container">
+				<div class="w3-agileits-services-top">
+						<h3>WHY US</h3>
+						<p>Ongeng secondary school provides a unique and ample atmosphere  for learning  and in addition... . </p>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-md-4 col-sm-4 w3-agileits-services-grid">
+					<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+					<h4>academic/library</h4>
+					<p>Our school has a fully equiped library books, journals, atlas, bible.. </p>
+				</div>
+				<div class="col-md-4 col-sm-4 w3-agileits-services-grid">
+			
+					<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+					<h4>qualified staff</h4>
+					<p>Our school has qualified teachig and non teaching staff that work as a team to forsee the positive progrees of the school. </p>
+				</div>
+				<div class="col-md-4 col-sm-4 w3-agileits-services-grid">
+					<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+					<h4>Housing_food/safty_health</h4>
+					<p>Our school provides better housing to the students, clean water, healthy diertary meals..</p>
+				</div>
+				
+				
+				<div class="clearfix"></div>
+			</div>
+	   </div>
+<!-- //services -->
+<div class="services_agile">
+	<div class="container">
+		<h3 class="title">OUR FEATURES</h3>
+		<div class="services_right">
+			<div class="col-md-4 list-left text-center">
+				<div class="multi-gd-text"><a href="#"><img class="img-responsive" src="images/1.jpg" alt=" "></a></div>
+				<h4>Administration Block</h4>
+				<p>Our school features, buildings, library, kitchen, domitories,playing grounds.. are always good, clean, safe to provide a learning environment
+					</p>
+			</div>
+			<div class="col-md-4 list-left text-center">
+				<div class="multi-gd-text"><a href="#"><img class="img-responsive" src="images/2.jpg" alt=" "></a></div>
+				<h4>Library</h4>
+				<p>Our school features, buildings, library, kitchen, domitories,playing grounds.. are always good, clean, safe to provide a learning environment
+					</p>
+			</div>
+			<div class="col-md-4 list-left text-center">
+			<div class="multi-gd-text"><a href="#"><img class="img-responsive" src="images/3.jpg" alt=" "></a></div>
+				<h4>Playing ground</h4>
+				<p>Our school features, buildings, library, kitchen, domitories,playing grounds.. are always good, clean, safe to provide a learning environment
+					</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- newsletter -->
+	   <div class="newsletter">
+		<div class="container">
+			<div class="col-md-8 agileits-w3layouts_newsletter_left">
+				<h3>Stay informed <br>with our Newsletter</br></h3>
+				<p>Our school features, buildings, library, kitchen, domitories,playing grounds.. are always good, clean, safe to provide a learning environment
+					</p>
+				<form action="#" method="post">
+					<input class="email" type="email" placeholder="Your email..." required="">
+					<input type="submit" value="Subscribe">
+				</form>
+			</div>
+			<div class="col-md-4 agileits-w3layouts_newsletter_right">
+				<h4>you think we're cool ? let's work together</h4>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //newsletter -->
+<div class="agileinfo_footer_bottom">
+			<div class="container">
+				<div class="col-md-3 agileinfo_footer_bottom_grid">
+					<h3>About Us</h3>
+					<p>Our school motto is " Forward Ever Backward Never":", the capacity that we normally admit especially in Form1 is 200 students annually.</p>
+			<p>Our school admission policy is to admit a student with minimum 300 marks scored in KCPE, Our rules and regulations policies are friendly and easy to adhere to,The environment is conducive for learning.</p>
+
+				</div>
+				<div class="col-md-3 agileinfo_footer_bottom_grid">
+					<h3>Our links</h3>
+					<div class="w3-agile-foot">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+						     <li><a href="contact.html">Contact</a></li>
+						</ul>
+						
+					</div>
+				</div>
+
+
+<!-- copy-right -->
+<div class="w3ls-copy-right">
+	<div class="container">
+			<p> &copy; 2017 Ongeng' Sec. school . All Rights Reserved | Design by  <a href="http://kenoxfirm.net"> kenoxfirm</a></p>
+	</div>
+</div>
+<!-- //copy-right -->
+<!-- modal -->
+<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header"> 
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+								<h4 class="modal-title">Ongeng Sec. School</h4>
+							</div> 
+							<div class="modal-body">
+								<div class="agileits-w3layouts-info">
+									<img src="images/10.jpg" class="img-responsive" alt="" />
+									<p>Our school motto is " Forward Ever Backward Never":", the capacity that we normally admit especially in Form1 is 200 students annually.</p>
+			<p>Our school admission policy is to admit a student with minimum 300 marks scored in KCPE, Our rules and regulations policies are friendly and easy to adhere to,The environment is conducive for learning.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //modal -->  
+
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+
+
+</body>
+</html>
