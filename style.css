@@ -111,7 +111,7 @@ nav#cbp-spmenu-s2 h3 {
     position: relative;
 }
 .w3layouts-banner {
-    background: url(../images/banner.jpg) no-repeat 0px 0px;
+    background: url(banner.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -120,7 +120,7 @@ nav#cbp-spmenu-s2 h3 {
     min-height: 700px;
 }
 .w3layouts-banner1 {
-    background: url(../images/banner.jpg) no-repeat 0px 0px;
+    background: url(banner.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -240,7 +240,7 @@ nav#cbp-spmenu-s2 h3 {
 }
 /*-- //who --*/
 .agileinfo-who-left {
-    background: url(../images/ab.jpg) no-repeat 0px 0px;
+    background: url(ab.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
